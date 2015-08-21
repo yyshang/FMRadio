@@ -28,7 +28,7 @@ public class PageFragment extends android.support.v4.app.Fragment {
     ObjectAnimator animator;
     // TODO: Rename and change types of parameters
     private int mParam1;
-    private String mParam2;
+
 
     //private OnFragmentInteractionListener mListener;
 
@@ -92,16 +92,6 @@ public class PageFragment extends android.support.v4.app.Fragment {
 //        }
 //    }
 
-    @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-//        try {
-//            mListener = (OnFragmentInteractionListener) activity;
-//        } catch (ClassCastException e) {
-//            throw new ClassCastException(activity.toString()
-//                    + " must implement OnFragmentInteractionListener");
-//        }
-    }
 
     @Override
     public void onDetach() {

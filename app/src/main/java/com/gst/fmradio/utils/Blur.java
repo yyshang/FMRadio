@@ -16,7 +16,6 @@ public class Blur {
         //背景虚化
         private static final int DEFAULT_BLUR_RADIUS = 25;
         private static long DURATION = 500;
-        private long mBlurDuration = DURATION;
         public static Bitmap apply(Context context, Bitmap sentBitmap) {
             return apply(context, sentBitmap, DEFAULT_BLUR_RADIUS);
         }

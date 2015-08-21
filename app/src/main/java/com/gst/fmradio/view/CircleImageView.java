@@ -44,7 +44,6 @@ public class CircleImageView extends ImageView {
     private int mBorderWidth = DEFAULT_BORDER_WIDTH;
 
     private Bitmap mBitmap;
-    private Bitmap mBitmapBackground ;
     private BitmapShader mBitmapShader;
     private int mBitmapWidth;
     private int mBitmapHeight;
@@ -83,7 +82,7 @@ public class CircleImageView extends ImageView {
                     mBorderColor = a.getColor(attr, DEFAULT_BORDER_COLOR);
                     break;
                 case R.styleable.CircleImageView_background1:
-                    mBitmapBackground =  BitmapFactory.decodeResource(getResources(), a.getResourceId(R.drawable.fm_play_disc, 0));
+//                    Bitmap mBitmapBackground = BitmapFactory.decodeResource(getResources(), a.getResourceId(R.drawable.fm_play_disc, 0));
                     break;
                 default:
                     break;
